@@ -117,7 +117,6 @@ async function pokemon() {
               const tdability2 = document.createElement("td");
               const tdhidden = document.createElement("td");
               const abilitieslenght = datapop.abilities.length;
-              console.log(abilitieslenght);
               if (abilitieslenght === 3) {
                 tdability1.innerText = datapop.abilities[0].ability.name;
                 tdability2.innerText = datapop.abilities[1].ability.name;
